@@ -5,7 +5,7 @@ description: Template to list your TestNet project or dApp in the Moonbeam docum
 
 # Title of Project/dApp with TitleCase
 
-![Template banner image](/dapps-list/images/template-banner.png)
+![Template banner image](../images/template-banner.png)
 
 **Disclaimer:** Moonbeam is a permissionless network. Any project can deploy their contracts to Moonbeam. The content in this guide is entirely community managed. TODO
 
