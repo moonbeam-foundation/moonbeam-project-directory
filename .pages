@@ -1,0 +1,11 @@
+title: DApps List
+arrange:
+  - README.md
+  - apis
+  - assets
+  - bridges
+  - defi
+  - explorers
+  - marketplaces
+  - oracles
+  - wallets
