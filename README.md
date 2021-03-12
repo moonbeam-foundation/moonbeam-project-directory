@@ -5,7 +5,7 @@ description: How you can list your TestNet project or dApp on the Moonbeam docum
 
 # How to List your Project/dApp
 
-![Template banner image](/dapps-list/images/list-dapps-banner.png)
+![Template banner image](images/list-dapps-banner.png)
 
 **Disclaimer:** Moonbeam is a permissionless network. Any project can deploy their contracts to Moonbeam. The content in this section is entirely community managed. TODO
 
