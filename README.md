@@ -7,15 +7,15 @@ description: How you can list your TestNet project or dApp on the Moonbeam docum
 
 ![Template banner image](images/list-dapps-banner.png)
 
-**Disclaimer:** Moonbeam is a permissionless network. Any project can deploy their contracts to Moonbeam. The content in this section is entirely community managed. TODO
+**Disclaimer:** Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam. The content in this section is entirely community-managed.
 
 ## Minimum Content
 
-In general terms, to be considered and added to this list, your project/dApp must meet the following requirements in terms of content:
+In general, to be considered and added to this list, your project/dApp must meet the following requirements in terms of content:
 
  - Introduction (see template file)
  - Show working contracts and/or front-ends deployed or connected to the Moonbase Alpha TestNet
- - Explain users how they can test or integrate your project/dApp
+ - Explain to users how they can test or integrate your project/dApp
  - Link the GitHub repos of the code
  - Link to communication channels
 
@@ -31,11 +31,11 @@ So, as mentioned before, first fork [this repository](https://github.com/PureSta
 
 ### Choose Category and Copy Template
 
-Next, choose the category that relates to your project the most, there is a folder per category. If you think we are missing a category, contact us via our [Discord channel](https://discord.gg/PfpUATX), we are happy to add it to the list.
+Next, choose the category that relates to your project the most. There is a folder per category. If you think we are missing a category, contact us via our [Discord channel](https://discord.gg/PfpUATX), we are happy to add it to the list.
 
-Inside each category there is an `example.md` file, you can use it as a reference.
+Inside each category, there is an `example.md` file. You can use it as a reference.
 
-For example, let's say your project is named "Rocket Project", and it is related to DeFi. Then, you would need to copy this file inside the following folder:
+For example, let's say your project is named "Rocket Project" and related to DeFi. Then, you would need to copy this file inside the following folder:
 
 ```
 moonbeam-project-directory
@@ -51,7 +51,7 @@ moonbeam-project-directory
 
 ### Changing Title - Description - First Heading
 
-With the file in the correct location, you can start adapting it to your specifications. Make sure to change the title, description and first heading (all located at the top of the file). The title defines how the entry is named on the left hand side navigation menu. The description is related to the metadata of the page.:
+With the file in the correct location, you can start adapting it to your specifications. Make sure to change the title, description, and first heading (all located at the top of the file). The title defines how the entry is named on the left-hand side navigation menu. The description is related to the metadata of the page:
 
 ```
 ---
@@ -64,7 +64,7 @@ description: Rocket Project DeFi integration in Moonbase Alpha to access the Mul
 
 ### Images
 
-Images related to your documentation can be saved inside the `images` folder located in the main directory of the repo. Please create a folder where to save your images. For our previous example this would be in:
+Images related to your documentation can be saved inside the `images` folder, located in the repo's main directory. Please create a folder where to save your images. For our previous example, this would be in:
 
 ```
 moonbeam-project-directory
@@ -82,6 +82,6 @@ moonbeam-project-directory
 
 ## Submitting PR
 
-Once you are done with your documentation. You can submit your pull-request from your forked repo.
+Once you are done with your documentation, you can submit your pull-request from your forked repo.
 
-This PR will be check by our team to make sure it complies with the minimum requirements to be listed.
+Our team will check this PR to make sure it complies with the minimum requirements to be listed.
