@@ -1,4 +1,5 @@
 title: DApps List
+hide: true
 arrange:
   - README.md
   - apis
