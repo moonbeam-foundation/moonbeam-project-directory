@@ -13,11 +13,11 @@ description: How you can list your TestNet project or dApp on the Moonbeam docum
 
 In general, to be considered and added to this list, your project/dApp must meet the following requirements in terms of content:
 
--  Introduction (see template file)
--  Show working contracts and/or front-ends deployed or connected to the Moonbase Alpha TestNet
--  Explain to users how they can test or integrate your project/dApp
--  Link the GitHub repos of the code
--  Link to communication channels
+ - Introduction (see template file)
+ - Show working contracts and/or front-ends deployed or connected to the Moonbase Alpha TestNet
+ - Explain to users how they can test or integrate your project/dApp
+ - Link the GitHub repos of the code
+ - Link to communication channels
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ So, as mentioned before, first fork [this repository](https://github.com/PureSta
 
 Next, choose the category that relates to your project the most. There is a folder per category. If you think we are missing a category, contact us via our [Discord channel](https://discord.gg/PfpUATX), we are happy to add it to the list.
 
-Inside each category, there is an `example.md` file. You can use it as a reference.
+You can use the `template.md` file (which you can find [here](https://github.com/PureStake/moonbeam-project-directory/blob/master/template.md)) as reference.
 
 For example, let's say your project is named "Rocket Project" and related to DeFi. Then, you would need to copy this file inside the following folder:
 
@@ -43,7 +43,6 @@ moonbeam-project-directory
 |--assets
 |--bridges
 |--defi
-|--|--example.md
 |--|--rocket-project.md
 |--explorers
 ...

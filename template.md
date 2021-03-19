@@ -50,7 +50,6 @@ moonbeam-project-directory
 |--assets
 |--bridges
 |--defi
-|--|--index.md
 |--|--rocket-project.md
 |--explorers
 ...
