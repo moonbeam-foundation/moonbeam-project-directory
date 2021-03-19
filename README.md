@@ -7,17 +7,17 @@ description: How you can list your TestNet project or dApp on the Moonbeam docum
  
 ![Template banner image](images/list-dapps-banner.png)
 
-**Disclaimer:** Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam. The content in this section is entirely community-managed.
+**Disclaimer:** The content in this section is entirely managed by the projects themselves. Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam. 
 
 ## Minimum Content
 
 In general, to be considered and added to this list, your project/dApp must meet the following requirements in terms of content:
 
- - Introduction (see template file)
- - Show working contracts and/or front-ends deployed or connected to the Moonbase Alpha TestNet
- - Explain to users how they can test or integrate your project/dApp
- - Link the GitHub repos of the code
- - Link to communication channels
+-  Introduction (see template file)
+-  Show working contracts and/or front-ends deployed or connected to the Moonbase Alpha TestNet
+-  Explain to users how they can test or integrate your project/dApp
+-  Link the GitHub repos of the code
+-  Link to communication channels
 
 ## Getting Started
 
