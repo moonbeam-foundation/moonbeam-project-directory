@@ -28,7 +28,8 @@ You can read more about Say Network in the following links:
  - [Website](https://say.network/)
  - [Docs site](https://docs.say.network/)
  - [Blog site](https://blog.say.network/)
- - [Gists](https://gist.github.com/saynetwork)
+ - [API Gists](https://gist.github.com/saynetwork)
+ - [Oracle](https://github.com/saynetwork/Oracle-Contracts-Moonbeam)
 
 
 You can contact the team via the following communication channels:
@@ -36,6 +37,7 @@ You can contact the team via the following communication channels:
  - [Slack](https://networksay.slack.com/)
  - [Email](mailto:info@say.network)
  - [Twitter](https://twitter.com/network_say)
+
 
 
 ## Moonbase Alpha TestNet Implementation
@@ -70,4 +72,19 @@ This API also provides the following methods:
 
  - **say_setProof** — set the proof for the contract you are calling from. say_query uses this value if you set it up or left it and based on it you will get response either with or without proof.
  - **say_getPrice** — returns the required gas price for the query as per the smart contract calculation of storing data.
- 
+
+Currently, you can query any type of API that provides JSON response. There will soon be inbuilt aggregations and more examples to provide verifiable price feeds with ease. Currently you can still do it by calling the API and aggregating the results manually.
+
+To get a price feed of your desired currency, You can use urls like below with `Currency1-Currency2` from supported list by coinbase:
+
+https://api.pro.coinbase.com/products/ETH-USD/ticker,price
+https://api.pro.coinbase.com/products/BTC-USD/ticker,price
+etc.
+
+You can use any type of API for example, If you like to use Coingecko for your examples:
+
+https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd,bitcoin,usd
+
+etc.
+
+If you have any questions, feedback or you like to discuss, Please feel free to contact through Slack or email.
