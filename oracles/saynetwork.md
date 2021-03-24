@@ -1,6 +1,6 @@
 ---
 title: Say Network
-description: Connect your smart contracts in a trustless manner to the Internet with Say Network on Moonbeam
+description: Connect your smart contracts to the Internet with Say Network trustless oracle service on Moonbeam
 ---
 
 # Say Network Oracle service on Moonbeam
@@ -37,8 +37,6 @@ You can contact the team via the following communication channels:
  - [Slack](https://networksay.slack.com/)
  - [Email](mailto:info@say.network)
  - [Twitter](https://twitter.com/network_say)
-
-
 
 ## Moonbase Alpha TestNet Implementation
 
@@ -78,13 +76,17 @@ Currently, you can query any type of API that provides JSON response. There will
 To get a price feed of your desired currency, You can use urls like below with `Currency1-Currency2` from supported list by coinbase:
 
 https://api.pro.coinbase.com/products/ETH-USD/ticker,price
+
 https://api.pro.coinbase.com/products/BTC-USD/ticker,price
+
 etc.
 
-You can use any type of API for example, If you like to use Coingecko for your examples:
+You can use any type of API. If you like to use Coingecko:
 
 https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd,bitcoin,usd
 
+https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd,ethereum,usd
+
 etc.
 
-If you have any questions, feedback or you like to discuss, Please feel free to contact through Slack or email.
+If you have any questions, feedback or you like to discuss Please, feel free to contact Say Network through Slack or Email.
