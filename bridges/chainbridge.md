@@ -19,16 +19,16 @@ For example, the bridge can be used to transfer ERC-20 or ERC-721 natively. A se
 
 You can read more about ChainBridge (and ChainSafe) in the following links:
 
--  [ChainSafe Website](https://chainsafe.io/)
--  [ChainSafe Github](https://github.com/chainsafe)
--  [ChainBridge documentation](https://chainbridge.chainsafe.io/)
--  [ChainBridge GitHub](https://github.com/ChainSafe/ChainBridge)
+ - [ChainSafe Website](https://chainsafe.io/)
+ - [ChainSafe Github](https://github.com/chainsafe)
+ - [ChainBridge documentation](https://chainbridge.chainsafe.io/)
+ - [ChainBridge GitHub](https://github.com/ChainSafe/ChainBridge)
 
 You can contact the team via the following communication channels:
 
--  [Discord](https://discord.gg/xSAwrnCWcg)
--  [Twitter](https://twitter.com/ChainSafeth)
--  [LinkedIn](https://www.linkedin.com/company/chainsafe-systems)
+ - [Discord](https://discord.gg/xSAwrnCWcg)
+ - [Twitter](https://twitter.com/ChainSafeth)
+ - [LinkedIn](https://www.linkedin.com/company/chainsafe-systems)
 
 ## Moonbase Alpha Implementation
 
