@@ -2,6 +2,8 @@
 
 ## Scalable Relayer Infrastructure for Blockchain Transactions.
 
+![../images/biconomy/logoBiconomy.png](../images/biconomy/logoBiconomy.png)
+
 ## Introduction
 
 Biconomy is a scalable transaction relayer infrastructure, which can pay blockchain transaction's gas fee for your dApp user, while collecting fees from you on monthly basis, in form of some stable token.
