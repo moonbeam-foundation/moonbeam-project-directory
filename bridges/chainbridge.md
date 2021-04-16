@@ -15,7 +15,7 @@ ChainBridge is a modular, multi-directional bridge to interact with multiple net
 
 At a high-level, ChainBridge is a message-passing protocol. A set of relayers are constantly looking for events, in either side of the bridge, which trigger a set of actions. Once a triggering event is noted, a set of relayers vote to execute the instructions (included in the event) in the chain on the other side of the bridge.
 
-For example, the bridge can be used to transfer ERC-20 or ERC-721 natively . A set of handler contracts are pre-configured to handle both token standards. At its core, the token transfer mechanism works with a lock-mint, burn-unlock mechanism. First tokens are locked in the source chain, and an event is emitted, which is listened to by the relayers. Then, they vote and (if approved) execute the mint function, giving the same amount of tokens locked in the target chain to the corresponding address.
+For example, the bridge can be used to transfer ERC-20 or ERC-721 natively. A set of handler contracts are pre-configured to handle both token standards. At its core, the token transfer mechanism works with a lock-mint, burn-unlock mechanism. First tokens are locked in the source chain, and an event is emitted, which is listened to by the relayers. Then, they vote and (if approved) execute the mint function, giving the same amount of tokens locked in the target chain to the corresponding address.
 
 You can read more about ChainBridge (and ChainSafe) in the following links:
 
