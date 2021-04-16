@@ -47,7 +47,7 @@ You can find all the contract's addresses that are relevant for the Moonbase Alp
 | ERC721M Token (mintable on Moonbase Alpha) | {{ networks.moonbase.chainbridge.ERC721M }}        |
 
 
-All of the above addresses are valid on both Kovan and Rinkeby. You will be able to specify which network to interact with when interacting with the Bridge contract.
+All of the above addresses are valid on both Kovan and Rinkeby. You will be able to specify which network to transfer the tokens to when interacting with the Bridge contract.
 
 ### Moonbase Alpha ChainBridge UI
 
