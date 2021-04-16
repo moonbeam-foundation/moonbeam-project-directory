@@ -36,30 +36,19 @@ ChainBridge is currently connecting the Moonbase Alpha TestNet with both Kovan a
 
 ### Moonbase Alpha - Rinkeby
 
-You can find all the contract's addresses that are relevant for the Moonbase Alpha - Rinkeby bridge in the following table:
+You can find all the contract's addresses that are relevant for the Moonbase Alpha - Kovan/Rinkeby bridge in the following table:
 
-|                  Contract                  |                          Address                           |
-| :----------------------------------------: | :--------------------------------------------------------: |
-|                   Bridge                   | {{ networks.moonbase.chainbridge.rinkeby.bridge_address }} |
-|               ERC20 Handler                | {{ networks.moonbase.chainbridge.rinkeby.ERC20_handler }}  |
-|               ERC721 Handler               | {{ networks.moonbase.chainbridge.rinkeby.ERC721_handler }} |
-|                ERC20S Token                |     {{ networks.moonbase.chainbridge.rinkeby.ERC20S }}     |
-| ERC721M Token (mintable on Moonbase Alpha) |    {{ networks.moonbase.chainbridge.rinkeby.ERC721M }}     |
-|    ERC721E Token (mintable on Rinkeby)     |    {{ networks.moonbase.chainbridge.rinkeby.ERC721E }}     |
+|                  Contract                  |                          Address                   |
+| :----------------------------------------: | :------------------------------------------------: |
+|                   Bridge                   | {{ networks.moonbase.chainbridge.bridge_address }} |
+|               ERC20 Handler                | {{ networks.moonbase.chainbridge.ERC20_handler }}  |
+|               ERC721 Handler               | {{ networks.moonbase.chainbridge.ERC721_handler }} |
+|                ERC20S Token                | {{ networks.moonbase.chainbridge.ERC20S }}         |
+| ERC721M Token (mintable on Moonbase Alpha) | {{ networks.moonbase.chainbridge.ERC721M }}        |
 
-### Moonbase Alpha - Kovan
 
-You can find all the contract's addresses that are relevant for the Moonbase Alpha - Kovan bridge in the following table:
+All of the above addresses are valid on both Kovan and Rinkeby. You will be able to specify which network to transfer the tokens to when interacting with the Bridge contract.
 
-|                  Contract                  |                         Address                          |
-| :----------------------------------------: | :------------------------------------------------------: |
-|                   Bridge                   | {{ networks.moonbase.chainbridge.kovan.bridge_address }} |
-|               ERC20 Handler                | {{ networks.moonbase.chainbridge.kovan.ERC20_handler }}  |
-|               ERC721 Handler               | {{ networks.moonbase.chainbridge.kovan.ERC721_handler }} |
-|                ERC20S Token                |     {{ networks.moonbase.chainbridge.kovan.ERC20S }}     |
-| ERC721M Token (mintable on Moonbase Alpha) |    {{ networks.moonbase.chainbridge.kovan.ERC721M }}     |
-|     ERC721E Token (mintable on Kovan)      |    {{ networks.moonbase.chainbridge.kovan.ERC721E }}     |
+### Moonbase Alpha ChainBridge UI
 
-### ChainBridge UI
-
-Currently, there is a UI available for ChainBridge. You can find the related repository [here](https://github.com/ChainSafe/chainbridge-ui)
+If you want to play around with transferring ERC20S tokens from Moonbase Alpha to Kovan or Rinkeby without having to set up the contracts in Remix, you can checkout the [Moonbase Alpha ChainBridge UI](https://moonbase-chainbridge.netlify.app/).
