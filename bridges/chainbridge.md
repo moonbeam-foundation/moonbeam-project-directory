@@ -34,7 +34,7 @@ You can contact the team via the following communication channels:
 
 ChainBridge is currently connecting the Moonbase Alpha TestNet with both Kovan and Rinkeby Ethereum's TestNets. You can find a detailed tutorial on how to use the bridge in [this site](/integrations/bridges/ethereum/chainbridge/).
 
-### Moonbase Alpha - Rinkeby
+### Moonbase Alpha - Kovan/Rinkeby
 
 You can find all the contract's addresses that are relevant for the Moonbase Alpha - Kovan/Rinkeby bridge in the following table:
 
