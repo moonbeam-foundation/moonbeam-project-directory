@@ -63,7 +63,6 @@ Follow the steps **[here](https://docs.biconomy.io/biconomy-dashboard)**, to re
 
 1. To use Biconomy on Moonbeam you need to select Moonbeam network on your dashboard and follow similar steps given in our docs.
    ![../images/biconomy/moonbeam-biconomy-dashboard.png](../images/biconomy/moonbeam-biconomy-dashboard.png)
-
 2. Now you can see the app on your dashboard. Configure it by adding your contract and functions.
    ![../images/biconomy/moonbeam-demo-app.png](../images/biconomy/moonbeam-demo-app.png)
 3. Now Get inside the DApp client code directory, to configure meta transactions. Let's first install `@biconomy/mexa` from npm.
