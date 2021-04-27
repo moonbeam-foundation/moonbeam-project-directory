@@ -7,7 +7,11 @@ description: How to use request data from a DIA Oracle in your Moonbeam Ethereum
 
 ## Introduction
 
-DApp developers who want to leverage DIA oracles can access the published data on Moonbeam. DIA offers cryptocurrency and data about traditional financial assets.
+DIA is an ecosystem for open financial data in a financial smart contract ecosystem.
+The target of DIA is to bring together data analysts, data providers and data users.
+In general, DIA provides a reliable and verifiable bridge between off-chain data from various sources and on-chain smart contracts that can be used to build a variety of financial dApps. 
+DApp developers who want to leverage DIA oracles can access the published data on Moonbeam.
+DIA offers data about traditional financial assets and cryptocurrencies.
 
 ## Supported Assets
 
@@ -25,7 +29,7 @@ DIA supports assets from various categories to be included into the oracle. A se
 
 ## Data Access
 
-All asset prices are determined in USD.
+All asset prices are determined in USD according to our [methodology](https://docs.diadata.org/documentation/methodology).
 Where appliccable, the oracle also provides information on circulating supply and the timestamp of data collection.
 The query in the smart contract is realized with the symbol of the asset.
 
@@ -44,7 +48,7 @@ struct CoinInfo {
 }
 ```
 
-The following snippet shows how to retrieve the BTC price of an asset (e.g. `DOT`) using a smart contract.
+The following snippet shows how to retrieve the price of an asset (e.g. `DOT`) measured in another asset (BTC) using a wrapper smart contract.
 
 ```
 pragma solidity ^0.4.24;
@@ -122,6 +126,8 @@ contract DiaAssetBtcOracle {
 | :------------ | :------------------------------------------: | :----------: |
 | Moonbeam Alphanet | `0xd5e1e0056bed90e46e1a58f0a09449cbebd0ff4a` |    1/day    |
 
-DIA provides a broad range of assets. You can find an overview in the DIA documentation [here](https://docs.diadata.org/documentation/oracle-documentation).
-For the deployment of specific oracles (source/methodology/frequency) please [contact the DIA team](mailto:bd@diadata.org).
+### Github and Contact
 
+DIA provides a broad range of assets. You can find an overview in the DIA documentation [here](https://docs.diadata.org/documentation/oracle-documentation).
+All our code is open-source and can be found on our [Github repositoy](https://github.com/diadata-org/diadata).
+For the deployment of specific oracles (source/methodology/frequency) please [contact the DIA team](mailto:bd@diadata.org).
