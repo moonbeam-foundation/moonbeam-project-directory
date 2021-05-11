@@ -12,6 +12,7 @@ The target of DIA is to bring together data analysts, data providers and data us
 In general, DIA provides a reliable and verifiable bridge between off-chain data from various sources and on-chain smart contracts that can be used to build a variety of financial dApps. 
 DApp developers who want to leverage DIA oracles can access the published data on Moonbeam.
 DIA offers data about traditional financial assets and cryptocurrencies.
+[Read our documentation](https://docs.diadata.org) to learn about our methodologies, API, oracles, and how to contribute.
 
 ## Supported Assets
 
@@ -35,9 +36,11 @@ The query in the smart contract is realized with the symbol of the asset.
 
 ### Smart Contract
 
-DIA data is published in the `DIAOracle` smart contract. By querying the `getCoinInfo()` function you can retrieve the requested data.
+DIA data is published in the `DIAOracle` smart contract.
+By querying the `getCoinInfo()` function you can retrieve the requested data.
+You can interact with our contract in the [blockchain explorer](https://moonbase-blockscout.testnet.moonbeam.network/address/0x3DCd7C86acf46c7e7F1eb583c7234f85118B9acF/), where you can query for any supported asset.
 
-It takes the name of the asset as input, e.g., `Bitcoin` and returns this struct of data:
+The contract takes the full name of the asset as input, e.g., `Bitcoin` and returns this struct of data:
 
 ```
 struct CoinInfo {
@@ -48,7 +51,11 @@ struct CoinInfo {
 }
 ```
 
+### Write your own DApp
+
+To access oracle data, you can either use the explorer above or write your own contract and reference the oracle.
 The following snippet shows how to retrieve the price of an asset (e.g. `DOT`) measured in another asset (BTC) using a wrapper smart contract.
+On the Moonbeam Alphanet, you can initialize the oracle address in your wrapper contract by calling `setOracleAddress()` with the address of our deployed demo contract `0xd5e1e0056bed90e46e1a58f0a09449cbebd0ff4a`.
 
 ```
 pragma solidity ^0.4.24;
@@ -131,3 +138,5 @@ contract DiaAssetBtcOracle {
 DIA provides a broad range of assets. You can find an overview in the DIA documentation [here](https://docs.diadata.org/documentation/oracle-documentation).
 All our code is open-source and can be found on our [Github repositoy](https://github.com/diadata-org/diadata).
 For the deployment of specific oracles (source/methodology/frequency) please [contact the DIA team](mailto:bd@diadata.org).
+
+You can follow us on [Telegram](https://t.me/DIAdata_org), [Github](https://github.com/diadata-org), and [Medium](https://medium.com/@diadata_org).
