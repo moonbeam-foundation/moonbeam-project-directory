@@ -55,7 +55,7 @@ struct CoinInfo {
 
 To access oracle data, you can either use the explorer above or write your own contract and reference the oracle.
 The following snippet shows how to retrieve the price of an asset (e.g. `DOT`) measured in another asset (BTC) using a wrapper smart contract.
-On the Moonbeam Alphanet, you can initialize the oracle address in your wrapper contract by calling `setOracleAddress()` with the address of our deployed demo contract `0xd5e1e0056bed90e46e1a58f0a09449cbebd0ff4a`.
+On the Moonbeam Alphanet, you can initialize the oracle address in your wrapper contract by calling `setOracleAddress()` with the address of our deployed demo contract `0x3DCd7C86acf46c7e7F1eb583c7234f85118B9acF`.
 
 ```
 pragma solidity ^0.4.24;
@@ -131,7 +131,7 @@ contract DiaAssetBtcOracle {
 
 | Chain name    |        Oracle Contract Address          | Update Frequency |
 | :------------ | :------------------------------------------: | :----------: |
-| Moonbeam Alphanet | `0xd5e1e0056bed90e46e1a58f0a09449cbebd0ff4a` |    1/day    |
+| Moonbeam Alphanet | `0x3DCd7C86acf46c7e7F1eb583c7234f85118B9acF` |    1/day    |
 
 ### Github and Contact
 
