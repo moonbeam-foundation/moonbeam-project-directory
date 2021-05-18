@@ -5,6 +5,8 @@ description: How to use request data from a DIA Oracle in your Moonbeam Ethereum
 
 # DIA Data Oracles on Moonbeam
 
+**Disclaimer:** The content in this section is entirely managed by the projects themselves. Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam. 
+
 ## Introduction
 
 DIA is an ecosystem for open financial data in a financial smart contract ecosystem.
@@ -18,19 +20,23 @@ DIA offers data about traditional financial assets and cryptocurrencies.
 
 DIA supports assets from various categories to be included into the oracle. A selection of assets is listed here:
 
-|              Data Feed Name           | Data Type |
-| :-----------------------------------: | :----: |
-|             DOT Token                 |  Crypto Price   |
-|                Bitcoin                |  Crypto Price  |
-|               Ethereum                |  Crypto Price   |
-|                Tether                 |  Crypto Price  |
-|                  XRP                  |  Crypto price   |
-|              Barnbridge Protocol      |  Farming Pool Data |
-|              yearn.finance            |  Farming Pool Data |
+Data Feed Name  |   Data Feed Query           | Data Type          |
+| :-----------: | :-------------------------: | :----------------: |
+| DOT Token     |   DOT                       |  Crypto Price      |
+| Bitcoin       |   Bitcoin                   |  Crypto Price      |
+| Ethereum      |   Ethereum                  |  Crypto Price      |
+| USDT          |   Tether                    |  Crypto Price      |
+| XRP           |   Ripple                    |  Crypto price      |
+| Barnbridge    |   BARNBRIDGE                |  Farming Pool Data |
+| yearn.finance |   YFI                       |  Farming Pool Data |
+
+To retrieve data, query the oracle for an asset as listed in column "Data Field Query".
+The query string is case-sensitive.
 
 ## Data Access
 
 All asset prices are determined in USD according to our [methodology](https://docs.diadata.org/documentation/methodology).
+They are denominated in a fix comma format with 5 decimals, so you need to divide them by 100000 to retrieve the actual value in USD.
 Where appliccable, the oracle also provides information on circulating supply and the timestamp of data collection.
 The query in the smart contract is realized with the symbol of the asset.
 
@@ -118,10 +124,10 @@ contract DiaAssetBtcOracle {
 		oracle = DiaOracle(_address);
 	}
     
-	function getAssetEurRate(string asset) constant public returns (uint256) {
+	function getAssetBtcRate(string asset) constant public returns (uint256) {
 		(uint assetPrice,,,) = oracle.getCoinInfo(asset);
 		(uint btcPrice,,,) = oracle.getCoinInfo("Bitcoin");
-		return (assetPrice * 100000 / btcPrice);
+		return (assetPrice / btcPrice);
 	}
     
 }
