@@ -20,15 +20,15 @@ DIA offers data about traditional financial assets and cryptocurrencies.
 
 DIA supports assets from various categories to be included into the oracle. A selection of assets is listed here:
 
-Data Feed Name  |   Data Feed Query           | Data Type          |
-| :-----------: | :-------------------------: | :----------------: |
-| DOT Token     |   DOT                       |  Crypto Price      |
-| Bitcoin       |   Bitcoin                   |  Crypto Price      |
-| Ethereum      |   Ethereum                  |  Crypto Price      |
-| USDT          |   Tether                    |  Crypto Price      |
-| XRP           |   Ripple                    |  Crypto price      |
-| Barnbridge    |   BARNBRIDGE                |  Farming Pool Data |
-| yearn.finance |   YFI                       |  Farming Pool Data |
+Data Feed Name  |   Data Feed Query           | Data Type                           |
+| :-----------: | :-------------------------: | :---------------------------------: |
+| DOT Token     |   DOT                       |  Crypto Price                       |
+| Bitcoin       |   Bitcoin                   |  Crypto Price                       |
+| Ethereum      |   Ethereum                  |  Crypto Price                       |
+| USDT          |   Tether                    |  Crypto Price                       |
+| XRP           |   Ripple                    |  Crypto price                       |
+| Barnbridge    |   BARNBRIDGE                |  Farming Pool Rate: Stablecoin Pool |
+| yearn.finance |   YFI                       |  Farming Pool Rate: WETH Pool       |
 
 To retrieve data, query the oracle for an asset as listed in column "Data Field Query".
 The query string is case-sensitive.
