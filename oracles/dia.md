@@ -5,6 +5,8 @@ description: How to use request data from a DIA Oracle in your Moonbeam Ethereum
 
 # DIA Data Oracles on Moonbeam
 
+![DIA Banner](../images/dia/dia-banner.png)
+
 **Disclaimer:** The content in this section is entirely managed by the projects themselves. Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam. 
 
 ## Introduction
