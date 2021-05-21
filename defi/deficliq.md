@@ -1,6 +1,6 @@
 ---
 title: Deficliq
-description: The Place to unify all De-Fi Features.
+description: The Place to Unify all De-Fi Features.
 ---
 
 # Deficliq - The Place to unify all De-Fi Features
@@ -35,7 +35,7 @@ You can read more about deficliq in the following links:
 
 Deficliq has deployed its core smart contract to the Moonbase Alpha TestNet.
 
-In this Smart Contract you can do the following:
+In this Smart Contract you can do the following:  
 -> **Cliq Token Smart Contract**
    - [Token Smart Contract Address](https://moonbase-blockscout.testnet.moonbeam.network/address/0xBa6C068122C91E46304F3CBE768ddF8927BA4314/transactions)
    - Can transfer token from one address to another
@@ -45,12 +45,26 @@ In this Smart Contract you can do the following:
 
 -> **Staking Smart Contract**
    - [Staking Smart Contract Address](https://moonbase-blockscout.testnet.moonbeam.network/address/0x0a2105B5b02AF23db5d5779beA8Dd8184bA6Fc45/transactions)
-   - Can stake particular amount of token
+   - Users can stake particular amount of token
    - users can know their reward and penalty via functions
-   - users acn withdraw their stake token
+   - users can withdraw their stake token
    - users can stake Dev and can earn rewards
    - users can withdraw Dev 
 
+### Contract Functionality
+
+Staking Smart Contract Ecosystem is based on De-Fi concept in which user will need to stake cliq token or native token in order to get rewards.
+Basic Functionality of Smart Contract is..
+ - Cliq token Contract is deployed via Cliq Smart Contract
+ - Staking Smart Contract is using Cliq smart contract via internal calls by which user can stake cliq.
+ - In order to stake Cliq token, user need to input particular amount of token amount and time period.
+ - Time period can be selected from 30, 60 and 90 days respectively.
+ - Rewards are managed as per the days user stake their token.
+ - Penalty will be applicable if user want to unstake or withdraw token before particular period of time.
+ - This Scenario work same for Native Token i.e Dev token.
+ - Reward and Penalty Percentage are managed as per the Staking Days of token or Native Token.
+ - Users will get particular 'ID' via which they can see their reward in real time.
+ - These 'ID' help user to see their investment and amount of token they stake on the platform.
 
 ### Contract Information
 
