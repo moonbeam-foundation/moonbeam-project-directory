@@ -3,7 +3,7 @@ title: Deficliq
 description: The Place to Unify all De-Fi Features.
 ---
 
-# Deficliq - The Place to unify all De-Fi Features
+# Deficliq - The Place to Unify all De-Fi Features
 
 ![deficliq Banner](../images/deficliq/deficliq.png)
 
@@ -34,7 +34,7 @@ You can read more about deficliq in the following links:
 ## Moonbase Alpha Implementation
 
 Deficliq has deployed its core smart contract to the Moonbase Alpha TestNet.  
-In this Smart Contract you can do the following:
+In this Smart Contract you can do the following:  
 -> **Cliq Token Smart Contract**
    - [Token Smart Contract Address](https://moonbase-blockscout.testnet.moonbeam.network/address/0xBa6C068122C91E46304F3CBE768ddF8927BA4314/transactions)
    - Can transfer token from one address to another
