@@ -11,11 +11,11 @@ description: The Place to unify all De-Fi Features.
 
 ## Introduction
 
-Staking Smart Contract is based on the Defi Staking concept in which users can stake their token and BNB for a particular period of time and can get reward based on it.
-Staking Contract work on modules like users can stake tokens and BNB for 30 days, 60 days, and 90 days respectively.
+Staking Smart Contract is based on the Defi Staking concept in which users can stake their token and Dev for a particular period of time and can get reward based on it.
+Staking Contract work on modules like users can stake tokens and Dev for 30 days, 60 days, and 90 days respectively.
 
 Rewards are defined which are based on the number of staking days.
-The penalty will be applied on early withdrawal that means if the user withdraws a staked token or BNB before the stake end time, the penalty will be applicable.
+The penalty will be applied on early withdrawal that means if the user withdraws a staked token or Dev before the stake end time, the penalty will be applicable.
 
 The contract is divided into two contract
 -> Cliq Token Contract
