@@ -17,12 +17,11 @@ Staking Contract work on modules like users can stake tokens and Dev for 30 days
 Rewards are defined which are based on the number of staking days.
 The penalty will be applied on early withdrawal that means if the user withdraws a staked token or Dev before the stake end time, the penalty will be applicable.
 
-The contract is divided into two contract
--> Cliq Token Contract
--> Staking Contract
+The contract is divided into two contract 
+ - **Cliq Token Smart Contract**
+ - **Staking Contract**
 
-The Staking Smart Contract ecosystem offers a few core things :
-
+The Staking Smart Contract ecosystem constitute two smart contract which work together, these are:
  - **Cliq Token Smart Contract** — ERC20 based smart contract for token functionality.
  - **Staking Contract** — Staking Smart contract with functionalities like stake token, reward and penalty and withdraw stake function.
 
