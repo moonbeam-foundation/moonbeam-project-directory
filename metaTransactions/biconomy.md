@@ -31,7 +31,7 @@ Since meta transactions are not native to the protocol, you would need to either
 
 In this approach, for each user, an upgradable contract wallet is created, which acts as a proxy contract & relays all transactions to the destination smart contract. As user needs to keep all of their assets under supervision of this proxy contract, all blockchain transactions to be routed via this proxy contract.
 
-Biconomy supports Gnosis contract wallet integration. Checkout how you can integrate meta transactions via Gnosis smart contract wallet [here](https://docs.biconomy.io/guides/enable-gasless-transactions/external-wallet-support/gnosis#how-to-register-gnosis-proxy-wallets).
+Biconomy supports Gnosis contract wallet integration. Checkout how you can integrate meta transactions via Gnosis smart contract wallet [here](https://docs.biconomy.io/products/enable-gasless-transactions/external-wallet-support/gnosis).
 
 ### 2. Custom Implementation
 

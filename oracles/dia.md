@@ -147,4 +147,4 @@ DIA provides a broad range of assets. You can find an overview in the DIA docume
 All our code is open-source and can be found on our [Github repositoy](https://github.com/diadata-org/diadata).
 For the deployment of specific oracles (source/methodology/frequency) please [contact the DIA team](mailto:bd@diadata.org).
 
-You can follow us on [Telegram](https://t.me/DIAdata_org), [Github](https://github.com/diadata-org), and [Medium](https://medium.com/@diadata_org).
+You can follow us on [Telegram](https://t.me/DIAdata_org), [Github](https://github.com/diadata-org), and [Medium](https://medium.com/dia-insights).
