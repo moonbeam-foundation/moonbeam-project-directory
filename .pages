@@ -1,4 +1,9 @@
 title: DApps List
 hide: false
-arrange:
+nav:
   - README.md
+  - template.md
+  - bridges
+  - defi
+  - metaTransactions
+  - oracles
