@@ -46,7 +46,7 @@ The query in the smart contract is realized with the symbol of the asset.
 
 DIA data is published in the `DIAOracle` smart contract.
 By querying the `getCoinInfo()` function you can retrieve the requested data.
-You can interact with our contract in the [blockchain explorer](https://moonbase-blockscout.testnet.moonbeam.network/address/0x3DCd7C86acf46c7e7F1eb583c7234f85118B9acF/), where you can query for any supported asset.
+You can interact with our contract in the [blockchain explorer](https://moonbase-blockscout.testnet.moonbeam.network/address/0x5425F5d4ba2B7dcb277C369cCbCb5f0E7185FB41), where you can query for any supported asset.
 
 The contract takes the full name of the asset as input, e.g., `Bitcoin` and returns this struct of data:
 
@@ -63,7 +63,7 @@ struct CoinInfo {
 
 To access oracle data, you can either use the explorer above or write your own contract and reference the oracle.
 The following snippet shows how to retrieve the price of an asset (e.g. `DOT`) measured in another asset (BTC) using a wrapper smart contract.
-On the Moonbeam Alphanet, you can initialize the oracle address in your wrapper contract by calling `setOracleAddress()` with the address of our deployed demo contract `0x3DCd7C86acf46c7e7F1eb583c7234f85118B9acF`.
+On the Moonbeam Alphanet, you can initialize the oracle address in your wrapper contract by calling `setOracleAddress()` with the address of our deployed demo contract `0x5425F5d4ba2B7dcb277C369cCbCb5f0E7185FB41`.
 
 ```
 pragma solidity ^0.4.24;
@@ -139,7 +139,7 @@ contract DiaAssetBtcOracle {
 
 | Chain name    |        Oracle Contract Address          | Update Frequency |
 | :------------ | :------------------------------------------: | :----------: |
-| Moonbeam Alphanet | `0x3DCd7C86acf46c7e7F1eb583c7234f85118B9acF` |    1/day    |
+| Moonbeam Alphanet | `0x5425F5d4ba2B7dcb277C369cCbCb5f0E7185FB41` |    1/day    |
 
 ### Github and Contact
 
