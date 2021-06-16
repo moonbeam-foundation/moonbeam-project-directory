@@ -1,11 +1,11 @@
 ---
-title: Eth - ChainBridge
+title: ChainBridge
 description: A modular, multi-directional bridge to interact with multiple networks that connect Ethereum and Moonbeam
 ---
 
 # Chainbridge by ChainSafe - Connecting Ethereum and Moonbeam
 
-![ChainSafe Banner](../images/chainbridge/dapps-chainbridge-banner.png)
+![ChainSafe Banner](../../images/chainbridge/dapps-chainbridge-banner.png)
 
 **Disclaimer:** Projects themselves entirely manage the content in this guide. Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam.
 

@@ -1,2 +1,5 @@
 title: Oracles
 nav:
+  - index.md
+  - chainlink.md
+  - dia-data.md
