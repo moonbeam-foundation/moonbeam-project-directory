@@ -12,7 +12,7 @@ To learn more about Offshift and our Private Derivatives Platform, visit the lin
 [Whitepaper](https://offshift.io/content/offshift_whitepaper_v1.pdf)
 [Pitch Deck](https://offshift.io/content/offshift_pitchdeck_v2.pdf)
 [GitLab](https://open.offshift.io/)
-[Blog](https://medium.com/offshift)
+[Blog](https://offshift.io/public/blog/)
 
 To reach out and connect with our team and join our growing community, join us on the following platforms:
 
