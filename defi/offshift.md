@@ -1,4 +1,4 @@
-Introduction
+# Introduction
 
 Offshift is pioneering the #PriFi space with the world&#39;s first Private Derivatives Platform that is fully decentralized, trustless, and on-chain - that is, in the Ethereum and Polkadot ecosystems.
 
@@ -21,7 +21,7 @@ To reach out and connect with our team and join our growing community, join us o
 [Twitter](https://twitter.com/OffshiftXFT)
 [Instagram](https://www.instagram.com/officialoffshift/)
 
-Moonbase Alpha Implementation
+# Moonbase Alpha Implementation
 
 Offshift has deployed our testnet to the Moonbase Alpha TestNet, which you can access via [this link](https://offshift.io/moonbeam-shift.html#). Using testnet tokens from our [faucet](https://offshift.io/moonbeam-faucet.html#), users can shift their testnet XFT into asset-pegged ERC-20 versions of our zkAssets.
 
@@ -110,7 +110,7 @@ Our wallet now shows 5 fewer xftTM, and a balance of 5 zkA.
 
 ![](../images/offshift/image13.png)
 
-Contract Information
+# Contract Information
 
 All contracts which are relevant to Offshift&#39;s Moonbeam Alpha implementation are listed in the table below:
 
