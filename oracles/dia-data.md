@@ -39,7 +39,7 @@ The query string is case-sensitive.
 
 All asset prices are determined in USD according to our [methodology](https://docs.diadata.org/documentation/methodology).
 They are denominated in a fix comma format with 5 decimals, so you need to divide them by 100000 to retrieve the actual value in USD.
-Where appliccable, the oracle also provides information on circulating supply and the timestamp of data collection.
+Where applicable, the oracle also provides information on circulating supply and the timestamp of data collection.
 The query in the smart contract is realized with the symbol of the asset.
 
 ### Smart Contract
