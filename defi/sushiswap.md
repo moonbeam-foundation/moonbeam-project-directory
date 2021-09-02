@@ -46,7 +46,7 @@ SushiSwap has deployed its core exchange platform to the Moonbase Alpha TestNet,
 
 ### Getting Started with the Interface
 
-First, make sure you have MetaMask set up so that it connects to the Moonbase Alpha TestNet. To do so, you can follow [this guide](/integrations/wallets/metamask/). You can also get DEV tokens from their faucet by following [this tutorial](/getting-started/moonbase/faucet/).
+First, make sure you have MetaMask set up so that it connects to the Moonbase Alpha TestNet. To do so, you can follow [this guide](/tokens/connect/metamask/). You can also get DEV tokens from their faucet by following [this tutorial](/builders/get-started/moonbase/#get-tokens/).
 
 With MetaMask properly configured, open the exchange platform using [this link](https://staging.sushi.com/). In there, click on the "Connect to a wallet" button, and choose MetaMask.
 

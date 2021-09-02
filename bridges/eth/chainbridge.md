@@ -1,11 +1,11 @@
 ---
-title: Eth - ChainBridge
+title: ChainBridge
 description: A modular, multi-directional bridge to interact with multiple networks that connect Ethereum and Moonbeam
 ---
 
 # Chainbridge by ChainSafe - Connecting Ethereum and Moonbeam
 
-![ChainSafe Banner](../images/chainbridge/dapps-chainbridge-banner.png)
+![ChainSafe Banner](../../images/chainbridge/dapps-chainbridge-banner.png)
 
 **Disclaimer:** Projects themselves entirely manage the content in this guide. Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam.
 
@@ -32,7 +32,7 @@ You can contact the team via the following communication channels:
 
 ## Moonbase Alpha Implementation
 
-ChainBridge is currently connecting the Moonbase Alpha TestNet with both Kovan and Rinkeby Ethereum's TestNets. You can find a detailed tutorial on how to use the bridge in [this site](/integrations/bridges/ethereum/chainbridge/).
+ChainBridge is currently connecting the Moonbase Alpha TestNet with both Kovan and Rinkeby Ethereum's TestNets. You can find a detailed tutorial on how to use the bridge in [this site](/builders/integrations/bridges/eth/chainbridge/).
 
 ### Moonbase Alpha - Kovan/Rinkeby
 
