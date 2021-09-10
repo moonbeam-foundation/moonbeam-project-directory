@@ -1,0 +1,14 @@
+moonbeam-project-directory
+|--apis
+...
+|--defi
+|--explorers
+|--images
+|--|--amaralend
+|--|--|--dapps-amaralend-banner.png
+|--|--|--dapps-amaralend-1.png
+|--|--|--dapps-amaralend-2.png
+|--|--|--dapps-amaralend-3.png
+|--|--|--dapps-amaralend-4.png
+|--marketplaces
+...
