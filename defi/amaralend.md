@@ -49,7 +49,7 @@ AmaraLend Beta has been deployed on Moonbase Alpha, the testnet of Moonbeam, all
 
 You can find a detailed tutorial on how to use AmaraLend beta: 
 
-https://amara.gitbook.io/amara-finance/
+[https://amara.gitbook.io/amara-finance/](https://amara.gitbook.io/amara-finance/)
 
 **Test coin contracts**
 
@@ -80,11 +80,11 @@ Total tutorials for your reference：[here](https://amara.gitbook.io/amara-finan
 
 **Step 4** “My assets” - “My deposit” - “Collateral”, switch on “use as collateral ”.
 
-![step4](/Users/hors.wei/moonbeam-project-directory/images/amaralend/dapps-amaralend-3.png)
+![step4](../images/amaralend/dapps-amaralend-3.png)
 
 **Step 5** Lend any one of the four assets and repay it.
 
-![step5](/Users/hors.wei/moonbeam-project-directory/images/amaralend/dapps-amaralend-4.png)
+![step5](../images/amaralend/dapps-amaralend-4.png)
 
 Welcome to your precious comments and suggestions during the test! 
 
