@@ -102,7 +102,7 @@ Follow the steps **[here](https://docs.biconomy.io/biconomy-dashboard)**, to re
 
 ## Learn More
 
-Wanna make your users pay gas-fee in ERC20 tokens? We can help you with that. Read more about that on our [docs](http://docs.biconomy.io).
+Wanna make your users pay gas-fee in ERC-20 tokens? We can help you with that. Read more about that on our [docs](http://docs.biconomy.io).
 
 ## Wanna get in touch?
 
