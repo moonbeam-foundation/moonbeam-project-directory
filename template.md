@@ -1,9 +1,9 @@
 ---
 title: Template
-description: Template to list your TestNet project or dApp in the Moonbeam documentation site
+description: Template to list your TestNet project or DApp in the Moonbeam documentation site
 ---
 
-# Title of Project/dApp with TitleCase
+# Title of Project/DApp with TitleCase
 
 ![Template banner image](./images/template-banner.png)
 
@@ -13,7 +13,7 @@ description: Template to list your TestNet project or dApp in the Moonbeam docum
 
 This file outlines a template that should be followed when listing projects in this directory. 
 
-This first section should be an introduction to your project/dApp. You may include:
+This first section should be an introduction to your project/DApp. You may include:
 
  - High-level explanation of what does it do?
  - What value it brings to the user
@@ -25,11 +25,11 @@ This section covers the minimum content necessary to be listed and the structure
 
 ### Minimum Content
 
-In general, to be considered and added to this list, your project/dApp must meet the following requirements in terms of content:
+In general, to be considered and added to this list, your project/DApp must meet the following requirements in terms of content:
 
  - Introduction (see the "Introduction" section)
  - Show working contracts and/or front-ends deployed or connected to the Moonbase Alpha TestNet
- - Explain to users how they can test or integrate your project/dApp
+ - Explain to users how they can test or integrate your project/DApp
  - Link the GitHub repos of the code
  - Link to communication channels
 
@@ -132,7 +132,7 @@ Some key takeaways:
 
 ### Images
 
-Before you add images to your documentation, please first create a directory (with a name related to your project/dApp) inside the `images` folder. 
+Before you add images to your documentation, please first create a directory (with a name related to your project/DApp) inside the `images` folder. 
 
 With the folder created, you can add images to your documentation page using the following structure:
 

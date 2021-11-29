@@ -13,10 +13,10 @@ description: A scalable relayer infrastructure for transactions that can be used
 
 ## Introduction
 
-Biconomy is a scalable transaction relayer infrastructure, which can pay blockchain transaction's gas fee for your dApp user, while collecting fees from you on monthly basis, in form of some stable token.
+Biconomy is a scalable transaction relayer infrastructure, which can pay blockchain transaction's gas fee for your DApp user, while collecting fees from you on monthly basis, in form of some stable token.
 
-- **Dapps require way too much onboarding and are too hard to even begin using. We need a solution to make onboarding easy for users.** Non-crypto savvy new users will have to pass KYC, purchase ETH from an exchange, download a wallet, then connect their wallet before they can go any further, which can take days! No one waits for days to try out an application.
-- **One of the major issues is need to hold Native currency for using dapps. Users can only pay in ETH**, which they may not have at that moment. Or the user may not want to spend their ETH investment.
+- **DApps require way too much onboarding and are too hard to even begin using. We need a solution to make onboarding easy for users.** Non-crypto savvy new users will have to pass KYC, purchase ETH from an exchange, download a wallet, then connect their wallet before they can go any further, which can take days! No one waits for days to try out an application.
+- **One of the major issues is need to hold Native currency for using DApps. Users can only pay in ETH**, which they may not have at that moment. Or the user may not want to spend their ETH investment.
 - **The necessity to pay a gas** fee every time the user uses your application. Netflix does not charge you their AWS fees for every time you watch a video, so why should Dapps charge you gas fees for every interaction you do?
 - **Proficiency in complex blockchain technicalities is required** such as using MetaMask, signing transactions, understanding gas etc. If the project is on layer 2, they need to know what that really means and be able to change RPC manually.
 - **Volatile and high gas fees** further dampen the user experience on your Dapp.
@@ -40,7 +40,7 @@ Biconomy supports Gnosis contract wallet integration. Checkout how you can integ
 
 ### 2. Custom Implementation
 
-If dApps support native meta transactions, then Biconomy's relayers would directly relay the transactions to the network without the need for any proxy contract.
+If DApps support native meta transactions, then Biconomy's relayers would directly relay the transactions to the network without the need for any proxy contract.
 
 ![../images/biconomy/native-meta-tx.png](../images/biconomy/native-meta-tx.png)
 
@@ -84,7 +84,7 @@ Follow the steps **[here](https://docs.biconomy.io/biconomy-dashboard)**, to re
 
    biconomy.onEvent(biconomy.READY, () => {
 
-     // Initialize your dapp here like getting user accounts, initialising contracts and etc
+     // Initialize your DApp here like getting user accounts, initialising contracts and etc
 
    }).onEvent(biconomy.ERROR, (error, message) => {
 
@@ -93,7 +93,7 @@ Follow the steps **[here](https://docs.biconomy.io/biconomy-dashboard)**, to re
    });
    ```
 
-🥳 Congrats, you've successfully integrated Biconomy into your Dapp and now your dapp supports meta Tx.
+🥳 Congrats, you've successfully integrated Biconomy into your DApp and now your DApp supports meta Tx.
 
 ## You can checkout more in following links.
 
