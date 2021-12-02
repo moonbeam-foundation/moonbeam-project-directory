@@ -1,9 +1,9 @@
 ---
 title: List your Project
-description: How you can list your TestNet project or dApp on the Moonbeam documentation site
+description: How you can list your TestNet project or DApp on the Moonbeam documentation site
 ---
 
-# How to List your Project/dApp
+# How to List your Project/DApp
  
 ![Template banner image](images/list-dapps-banner.png)
 
@@ -11,17 +11,17 @@ description: How you can list your TestNet project or dApp on the Moonbeam docum
 
 ## Minimum Content
 
-In general, to be considered and added to this list, your project/dApp must meet the following requirements in terms of content:
+In general, to be considered and added to this list, your project/DApp must meet the following requirements in terms of content:
 
  - Introduction (see template file)
  - Show working contracts and/or front-ends deployed or connected to the Moonbase Alpha TestNet
- - Explain to users how they can test or integrate your project/dApp
+ - Explain to users how they can test or integrate your project/DApp
  - Link the GitHub repos of the code
  - Link to communication channels
 
 ## Getting Started
 
-This guide will help you get started on listing your project/dApp in the Moonbeam docs site.
+This guide will help you get started on listing your project/DApp in the Moonbeam docs site.
 
 ### Forking/Cloning the Repo
 

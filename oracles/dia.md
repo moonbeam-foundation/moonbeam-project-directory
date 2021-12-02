@@ -1,6 +1,6 @@
 ---
 title: DIA Data
-description: How to use request data from a DIA Oracle in your Moonbeam Ethereum Dapp using smart contracts
+description: How to use request data from a DIA Oracle in your Moonbeam Ethereum DApp using smart contracts
 ---
 
 # DIA Data Oracles on Moonbeam
@@ -13,7 +13,7 @@ description: How to use request data from a DIA Oracle in your Moonbeam Ethereum
 
 DIA is an ecosystem for open financial data in a financial smart contract ecosystem.
 The target of DIA is to bring together data analysts, data providers and data users.
-In general, DIA provides a reliable and verifiable bridge between off-chain data from various sources and on-chain smart contracts that can be used to build a variety of financial dApps. 
+In general, DIA provides a reliable and verifiable bridge between off-chain data from various sources and on-chain smart contracts that can be used to build a variety of financial DApps. 
 DApp developers who want to leverage DIA oracles can access the published data on Moonbeam.
 DIA offers data about traditional financial assets and cryptocurrencies.
 [Read our documentation](https://docs.diadata.org) to learn about our methodologies, API, oracles, and how to contribute.
