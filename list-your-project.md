@@ -54,4 +54,4 @@ Once you have gathered the above required content, you can head to the [Submit a
 
 ![How to Submit your DApp](images/stateofthedapps/stateofthedapps2.png)
 
-Submission are typically reviewed by the State of the DApps team in one business day. For any Moonbeam-related questions you can reach out to us in [Discord](https://discord.gg/moonbeam){target=_blank}. For State of the DApps support, you can contact [support@stateofthedapps.com](mailto:support@stateofthedapps.com)
+Submissions are typically reviewed by the State of the DApps team in one business day. For any Moonbeam-related questions you can reach out to us in [Discord](https://discord.gg/moonbeam){target=_blank}. For State of the DApps support, you can contact [support@stateofthedapps.com](mailto:support@stateofthedapps.com)
