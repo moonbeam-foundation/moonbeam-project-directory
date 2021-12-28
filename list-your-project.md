@@ -11,6 +11,8 @@ description: How you can list your TestNet project or DApp on the Moonbeam docum
 
 ## Minimum Content
 
+We are now using State of the Dapps.
+
 In general, to be considered and added to this list, your project/DApp must meet the following requirements in terms of content:
 
  - Introduction (see template file)
