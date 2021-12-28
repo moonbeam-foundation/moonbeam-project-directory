@@ -13,4 +13,4 @@ Previously, a crowd-sourced DApps Listing was maintained here as part of the Moo
 **Disclaimer:** State of the DApps contains user-generated content. You should verify any information with your own research. Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam. 
 
 ## Support
-Submissions are typically reviewed by the State of the DApps team in one business day. For any Moonbeam-related questions you can reach out to us in [Discord](https://discord.gg/moonbeam){target=_blank}. For State of the DApps support, you can contact [support@stateofthedapps.com](mailto:support@stateofthedapps.com)
+Submissions are typically reviewed by the State of the DApps team in one business day. For any Moonbeam-related questions you can reach out to us in [Discord](https://discord.gg/moonbeam). For State of the DApps support, you can contact [support@stateofthedapps.com](mailto:support@stateofthedapps.com)
