@@ -7,80 +7,51 @@ description: How you can list your TestNet project or DApp on the Moonbeam docum
  
 ![Template banner image](images/list-dapps-banner.png)
 
-**Disclaimer:** The content in this section is entirely managed by the projects themselves. Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam. 
+## Introduction to State of the DApps
 
-## Minimum Content
+[State of the DApps](https://www.stateofthedapps.com/){target=_blank} was started in 2016 by Joris Bontje to provide a convenient listing of all of the smart contracts or decentralized applications deployed to Ethereum. It has grown tremendously since then, supporting multiple chains and showcasing a wealth of information. In their own words, *“Whether you are looking for new users, testers, concept feedback, partners, or investors, submitting a DApp to this definitive registry will help your project gain traction.”*
 
-In general, to be considered and added to this list, your project/DApp must meet the following requirements in terms of content:
+State of the DApps maintains a rank of projects based on active users, transaction volume, developer activity, and profile strength. Moonriver is currently live on State of the DApps. Previously, a crowd-sourced DApps listing was maintained [here](/learn/dapps-list/) as part of the Moonbeam docs site. That registry is deprecated and replaced by State of the DApps. 
 
- - Introduction (see template file)
- - Show working contracts and/or front-ends deployed or connected to the Moonbase Alpha TestNet
- - Explain to users how they can test or integrate your project/DApp
- - Link the GitHub repos of the code
- - Link to communication channels
+![State of the DApps Home Page](images/stateofthedapps/state-of-the-dapps-1.png)
 
-## Getting Started
+You can [submit your project](https://www.stateofthedapps.com/dapps/submit/new){target=_blank} to State of the DApps by providing background on your project including a description of the DApp, screenshots, social media links, and a project status (such as Live, Beta, Prototype, etc). DApps are welcome at any stage in the product life cycle, including ones in the ideation phase. Only a subset of the fields are required, but you are encouraged to complete as many as possible, as providing a more thorough profile for your DApp will improve its ranking. 
 
-This guide will help you get started on listing your project/DApp in the Moonbeam docs site.
+!!! note
+    State of the DApps contains user-generated content. You should verify any information with your own research. Moonbeam is a permissionless network. Any project can deploy its contracts to Moonbeam.
 
-### Forking/Cloning the Repo
+## Required Content
 
-The main idea is to fork a repository, modify it with your changes, and then submit a PR.
+At a minimum, you must include the following information to submit your project/DApp to State of the DApps:
 
-So, as mentioned before, first fork [this repository](https://github.com/PureStake/moonbeam-project-directory).
+ - DApp Name
+ - One-Sentence Description
+ - Full Description
+ - Website URL
+ - Life Cycle Status
+ - Category
+ - Tags
+ - Contact Email (not shared publicly)
 
-### Choose Category and Copy Template
+## How to Submit your DApp
 
-Next, choose the category that relates to your project the most. There is a folder per category. If you think we are missing a category, contact us via our [Discord channel](https://discord.gg/PfpUATX), we are happy to add it to the list.
+Once you have gathered the above required content, you can head to the [Submit a DApp Page](https://www.stateofthedapps.com/dapps/submit/new){target=_blank} where you can take the following steps:
 
-You can use the `template.md` file (which you can find [here](https://github.com/PureStake/moonbeam-project-directory/blob/master/template.md)) as reference.
+ 1. Enter your project’s name
+ 2. Choose a Platform such as Moonriver
+ 3. Write an interesting, one-sentence description of your DApp
+ 4. Write a complete, longer description of your DApp
+ 5. Include the website URL and any other URLs if applicable
+ 6. List the project author(s)
+ 7. Optionally, provide the DApp’s software license
+ 8. Provide a logo, icon, and screenshots if applicable
+ 9. Select your DApp’s status
+ 10. Add your project's social media links if applicable
+ 11. Choose a category
+ 12. Provide at least one tag for your DApp. If your desired tag hasn’t been created yet, you can create a new tag
+ 13. Provide a contact email (this is not shared publicly)
+ 14. Review the terms and conditions and press **Submit**
 
-For example, let's say your project is named "Rocket Project" and related to DeFi. Then, you would need to copy this file inside the following folder:
+![How to Submit your DApp](images/stateofthedapps/state-of-the-dapps-2.png)
 
-```
-moonbeam-project-directory
-|--apis
-|--assets
-|--bridges
-|--defi
-|--|--rocket-project.md
-|--explorers
-...
-```
-
-### Changing Title - Description - First Heading
-
-With the file in the correct location, you can start adapting it to your specifications. Make sure to change the title, description, and first heading (all located at the top of the file). The title defines how the entry is named on the left-hand side navigation menu. The description is related to the metadata of the page:
-
-```
----
-title: Rocket Project (title example)
-description: Rocket Project DeFi integration in Moonbase Alpha to access the Multi-Chain future and the Polkadot Ecosystem (description example)
----
-
-# Rocket Project - DeFi Multi Chain (title example)
-```
-
-### Images
-
-Images related to your documentation can be saved inside the `images` folder, located in the repo's main directory. Please create a folder where to save your images. For our previous example, this would be in:
-
-```
-moonbeam-project-directory
-|--apis
-...
-|--defi
-|--explorers
-|--images
-|--|--rocket-project
-|--|--|--image1.png
-|--|--|--image2.svg
-|--marketplaces
-...
-```
-
-## Submitting PR
-
-Once you are done with your documentation, you can submit your pull-request from your forked repo.
-
-Our team will check this PR to make sure it complies with the minimum requirements to be listed.
+Submissions are typically reviewed by the State of the DApps team in one business day. For any Moonbeam-related questions you can reach out to us in [Discord](https://discord.gg/moonbeam){target=_blank}. For State of the DApps support, you can contact [support@stateofthedapps.com](mailto:support@stateofthedapps.com)

@@ -3,7 +3,6 @@ hide: false
 nav:
   - index.md
   - list-your-project.md
-  - template.md
   - bridges
   - defi
   - metaTransactions
